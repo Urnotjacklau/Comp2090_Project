@@ -1,4 +1,4 @@
-%%writefile /content/hkmulib/models.py
+
 from abc import ABC, abstractmethod
 from datetime import datetime, timedelta
 from typing import List, Optional
