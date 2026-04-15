@@ -1,6 +1,6 @@
 # HKMU COMP2090SEF Course Project 📚
 
-**Group:** [填寫你的組別，例如 Group 10]  
+**Group:** [Group 101]  
 **Course:** Data Structures, Algorithms and Problem Solving (Spring 2026)  
 **Instructors:** Dr. Jimmy S. Ren / Dr. Patrick Chan  
 
