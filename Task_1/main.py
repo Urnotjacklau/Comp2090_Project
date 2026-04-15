@@ -1,7 +1,6 @@
-%%writefile /content/hkmulib/main.py
+
 from library import Library
-import sys
-sys.path.append('/content/hkmulib')
+
 def main():
     lib = Library()
     print("🌟 歡迎使用 HKMU 圖書館管理系統 🌟\n")
