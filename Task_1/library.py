@@ -1,4 +1,4 @@
-%%writefile /content/hkmulib/library.py
+
 from models import Book, Member, StudentMember, FacultyMember
 from typing import Dict
 
