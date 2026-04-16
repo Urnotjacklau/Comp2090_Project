@@ -12,7 +12,7 @@ This project is collaboratively developed by our group. The responsibilities are
 
 *   **[Chiu Yik Long]** (SID: [13600971]) 
     *   **Contribution:** Responsible for **Task 1** (OOP-based Application Development).
-*   **[Chan Ho]** (SID: [13842068]) 
+*   **[Chan Ho Cognac]** (SID: [13842068]) 
     *   **Contribution:** Responsible for **Task 1** (OOP-based Application Development).
 *   **[Lau Ming Wah]** (SID: [13506964]) 
     *   **Contribution:** Responsible for **Task 2** (Self-Study Data Structure & Algorithm).
