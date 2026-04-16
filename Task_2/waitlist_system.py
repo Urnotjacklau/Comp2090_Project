@@ -47,10 +47,6 @@ class WaitlistNode:
 
     def __lt__(self, other) -> bool:
         """
-        [Magic Method] Defines the "Less Than" (<) comparison logic for WaitlistNode objects.
-        This is crucial for the Max-Heap implementation, as the heap algorithm relies 
-        on this comparison to perform 'heapify-up' and 'heapify-down' operations correctly.
-        
         Priority Rules for comparison:
         1. Higher priority_score means higher priority.
         2. If priority_scores are equal, earlier request_time means higher priority.
@@ -95,10 +91,7 @@ class PriorityWaitlist:
     """
     
     def __init__(self):
-        """
-        Initializes an empty Max-Heap. 
-        We use a simple Python list to represent the complete binary tree structure.
-        """
+       
         self._heap = []
 
     # -------------------------------------------------------------------------
@@ -136,11 +129,7 @@ class PriorityWaitlist:
         self._heapify_up(len(self._heap) - 1)
 
     def _heapify_up(self, index: int):
-        """
-        [Algorithm: Heapify-Up]
-        Moves a newly inserted node up the tree if its priority is greater 
-        than its parent's priority, ensuring the Max-Heap property is maintained.
-        """
+       
         # Continue swapping as long as the current node is not the root (index > 0)
         # and its priority is STRICTLY GREATER than its parent's priority.
         # Note: The comparison logic is handled by the WaitlistNode's __lt__ magic method.
@@ -245,12 +234,6 @@ class PriorityWaitlist:
 
 def heap_sort_books(books_list: list):
     """
-    [Task 2: Self-Study Algorithm - Heap Sort]
-    Sorts a list of books IN-PLACE based on a specific attribute (e.g., popularity).
-    
-    Time Complexity: O(n log n) for all cases (best, average, worst).
-    Space Complexity: O(1) auxiliary space (in-place sorting).
-    
     Algorithm steps:
     1. Build a Max-Heap from the unsorted array.
     2. Repeatedly swap the maximum element (root) with the last element of the heap.
